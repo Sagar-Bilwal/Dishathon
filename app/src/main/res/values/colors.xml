@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7b733</color>
+    <color name="colorPrimaryDark">#fc4a1a</color>
+    <color name="colorAccent">#FC7A00</color>
+
+    <color name="rippleEffectColor">#f7b733</color>
+    <color name="colorBtnSignIn">#FC7A00</color>
+    <color name="colorBtnRegister">#83838c</color>
+
+    <color name="baseReleaseColor">#212121</color>
+
+    <color name="basePressColor">#FAFAFA</color>
+    <color name="ballReleaseColor">#9E9E9E</color>
+    <color name="backgroundColor">#FFDAB9</color>
+</resources>

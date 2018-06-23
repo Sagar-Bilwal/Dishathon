@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "698651908032",
+    "firebase_url": "https://dishtv-9e6ca.firebaseio.com",
+    "project_id": "dishtv-9e6ca",
+    "storage_bucket": "dishtv-9e6ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698651908032:android:f5e3c0411f46ad8b",
+        "android_client_info": {
+          "package_name": "com.example.sagar.dishtv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698651908032-so1a0sb94nfh7otc63d60tpfts7fpd9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sagar.dishtv",
+            "certificate_hash": "d4d7b3bad24d6b90e12b4c24dda0634a8d16f927"
+          }
+        },
+        {
+          "client_id": "698651908032-qbd5rooeu7uatfu2f3p0pgg357un0dmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6NkdfNH9jKj3e-Qk3lrNN9kfPy1kP1jM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698651908032-qbd5rooeu7uatfu2f3p0pgg357un0dmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
