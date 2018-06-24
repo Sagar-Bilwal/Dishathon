@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/dishtv1"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/dishtv"
+        android:roundIcon="@drawable/dishtv1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.sagar.dishtv1.Login">
@@ -25,7 +25,13 @@
             android:name="com.example.sagar.dishtv1.MoviesViewer"
             android:theme="@style/Theme.AppCompat.DayNight" />
         <activity android:name="com.example.sagar.dishtv1.FindChannel" />
-        <activity android:name="com.example.sagar.dishtv1.ActiveServices"></activity>
+        <activity android:name="com.example.sagar.dishtv1.ActiveServices" />
+        <activity android:name="com.example.sagar.dishtv1.PaymentActivity"></activity>
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_ILgsfZCZoFIKMb"
+            />
+
     </application>
 
 </manifest>

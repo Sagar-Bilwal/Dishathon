@@ -1,6 +1,7 @@
 package com.example.sagar.dishtv1;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,6 +38,7 @@ public class MoviesViewer extends AppCompatActivity implements MovieRecyclerAdap
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies_viewer);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         recyclerView=findViewById(R.id.recyclerView);
         movieRecyclerAdapter=new MovieRecyclerAdapter(this, Movies,this);
         progressBar=findViewById(R.id.progressbar);

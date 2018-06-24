@@ -3,6 +3,7 @@ package com.example.sagar.dishtv1;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.Snackbar;
@@ -35,6 +36,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder().setDefaultFontPath("fonts/Lobster_1.3.otf").setFontAttrId(R.attr.fontPath).build());
         setContentView(R.layout.activity_login);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         btnRegister=findViewById(R.id.btnRegister);
         btnSignIn=findViewById(R.id.btnSignIn);
         constraintLayout=findViewById(R.id.partnerLayout);
