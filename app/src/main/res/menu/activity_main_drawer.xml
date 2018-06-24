@@ -19,11 +19,11 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Active Services" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_polling"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Live Polling" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_log_out"
             android:icon="@drawable/ic_menu_manage"
             android:title="Log Out" />
     </group>

@@ -1,5 +1,7 @@
 package com.example.sagar.dishtv1;
 
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -78,9 +81,12 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_polling)
+        {
+            startActivity(new Intent(MainActivity.this,polling.class));
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_log_out) {
+            startActivity(new Intent(MainActivity.this,Login.class));
 
         } else if (id == R.id.nav_share) {
 

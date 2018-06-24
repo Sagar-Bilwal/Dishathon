@@ -19,7 +19,8 @@
         <activity
             android:name="com.example.sagar.dishtv1.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.sagar.dishtv1.polling"></activity>
     </application>
 
 </manifest>
