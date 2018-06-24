@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:background="@color/cardview_dark_background">
+        android:background="@android:color/white">
 
         <TextView
             android:id="@+id/title"
@@ -25,9 +25,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:fontFamily="serif"
+            android:gravity="left"
             android:text="Title"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +43,7 @@
             android:layout_marginTop="8dp"
             android:gravity="center"
             android:text="Vote_Average"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/colorAccent"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -58,8 +59,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="Overview"
-            android:textAlignment="center"
-            android:textColor="@android:color/background_light"
+            android:gravity="left"
+            android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

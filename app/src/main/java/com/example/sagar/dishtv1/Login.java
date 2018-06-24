@@ -56,7 +56,7 @@ public class Login extends AppCompatActivity {
     {
         AlertDialog.Builder dialog=new AlertDialog.Builder(this);
         dialog.setTitle("Sign In");
-        dialog.setMessage("Please use Email to Sign In");
+        dialog.setMessage("Please use Phone No. to Sign In");
 
         LayoutInflater layoutInflater=LayoutInflater.from(this);
         final View sign_in_layout=layoutInflater.inflate(R.layout.activity_sign_in,null);

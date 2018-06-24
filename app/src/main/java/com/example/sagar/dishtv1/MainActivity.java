@@ -87,10 +87,13 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_log_out) {
             startActivity(new Intent(MainActivity.this,Login.class));
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_find_channel)
+        {
+            startActivity(new Intent(this,FindChannel.class));
 
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_services)
+        {
+            startActivity(new Intent(this,ActiveServices.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
