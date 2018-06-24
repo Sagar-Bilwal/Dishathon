@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popularMovies"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.sagar.dishtv1.MoviesViewer"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.RecyclerView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:id="@+id/recyclerView"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="102dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+</FrameLayout>

@@ -11,7 +11,7 @@
             android:title="Find Channel" />
 
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_movies"
             android:icon="@drawable/ic_menu_camera"
             android:title="Movies" />
         <item

@@ -20,7 +20,8 @@
             android:name="com.example.sagar.dishtv1.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.example.sagar.dishtv1.polling"></activity>
+        <activity android:name="com.example.sagar.dishtv1.polling" />
+        <activity android:name="com.example.sagar.dishtv1.MoviesViewer" android:theme="@style/Theme.AppCompat.DayNight"></activity>
     </application>
 
 </manifest>
